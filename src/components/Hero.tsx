@@ -19,11 +19,11 @@ const Hero = () => {
     "Cancel anytime",
   ];
   return (
-    <section className="w-[70%] mx-auto flex flex-col items-center justify-center py-20 text-center">
-      <h1 className="text-6xl w-[60%] mx-auto mb-4 font-bold">
+    <section className="lg:w-[70%] w-[95%] mx-auto flex flex-col items-center justify-center py-20 text-center">
+      <h1 className="text-4xl lg:text-6xl w-full lg:w-[60%] mx-auto mb-4 font-bold">
         Cold emails that don't sound like cold emails.
       </h1>
-      <h3 className="text-xl w-[60%] mx-auto mb-8">
+      <h3 className="text-lg lg:text-xl w-full lg:w-[60%] mx-auto mb-8">
         AI-generated icebreakers your prospects actually reply to — not because
         they're tricked, but because they feel real.
       </h3>
@@ -42,23 +42,23 @@ const Hero = () => {
           return (
             <div key={i} className="flex items-center space-x-2">
               <obj.icon />
-              <p className="text-lg">{obj.title}</p>
+              <p className="text-md lg:text-lg">{obj.title}</p>
             </div>
           );
         })}
       </div>
       <div className="flex items-center space-x-4">
-        <button className="flex items-center space-x-1 rounded-lg bg-primary px-6 py-3 text-white hover:bg-primary/80  transition-all duration-200 cursor-pointer text-xl">
+        <button className="flex items-center space-x-1 rounded-lg bg-primary px-4 py-2 lg:px-6 lg:py-3 text-white hover:bg-primary/80  transition-all duration-200 cursor-pointer  lg:text-xl">
           <p>Book Free Demo</p>
           <ArrowRight />
         </button>
-        <button className="flex items-center space-x-1 rounded-lg bg-zinc-800 px-6 py-3 text-white hover:bg-black/80  transition-all duration-200 cursor-pointer text-xl">
+        <button className="flex items-center space-x-1 rounded-lg bg-zinc-800 px-4 py-2 lg:px-6 lg:py-3 text-white hover:bg-black/80  transition-all duration-200 cursor-pointer  lg:text-xl">
           <p>Watch 2-Min Breakdown</p>
           <Play />
         </button>
       </div>
 
-      <div className="flex items-center space-x-2 my-6 text-lg">
+      <div className="flex items-center space-x-1 my-6 text-sm lg:text-lg">
         {riskReversal.map((item, i) => {
           return (
             <div key={i} className="flex items-center space-x-2">
