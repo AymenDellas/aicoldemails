@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@theme {
+  --color-primary: #6c5ce7; /* Electric violet - standout CTA & accent*/
+  --color-secondary: #f3f4f6; /* Soft gray background - clean base  */
+  --color-text: #1f2937; /* Rich gray-black - for body/headlines */
+  --color-muted: #9ca3af; /* Light gray for subtext; labels */
+  --color-success: #10b981; /* Teal-green - reply rate bump; trust signals */
+  --color-alert: #ef4444; /* Soft red - urgency or FOMO */
+  --color-highlight: #facc15; /* Yellow - micro-highlights (badges, % wins) */
+  --font-poppins: "Poppins", sans-serif; /* Modern, clean sans-serif font */
+  --font-inter: "Inter", sans-serif; /* Versatile, legible sans-serif font */
+}
